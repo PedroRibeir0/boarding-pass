@@ -1,0 +1,17 @@
+.app{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+h1{
+    color: white;
+}
+
+p{
+    color: rgba(255, 255, 255, 0.76);
+    width: 35rem;
+    text-align: center;
+}

@@ -1,0 +1,154 @@
+:root{
+    --font-color1: rgb(44, 44, 44);
+    --font-color2: rgb(95, 95, 95);
+}
+
+.ball{
+    position: absolute;
+    background-color: #563996;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+}
+
+.ball:nth-child(1){
+    left: -1.5rem;
+    top: 21rem;
+}
+
+.ball:nth-child(2){
+    left: -1.5rem;
+    top: 30.5rem;
+}
+
+.ball:nth-child(3){
+    right: -1.5rem;
+    top: 21rem;
+}
+
+.ball:nth-child(4){
+    right: -1.5rem;
+    top: 30.5rem;
+}
+
+.boarding-pass{
+    position: relative;
+    background-color: white;
+    width: 35rem;
+    padding: 2.6rem;
+    border-radius: 2.5rem;
+}
+
+.date-flight{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2.5rem;
+}
+
+.info-name, .info-value{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.info-value span{
+    color: var(--font-color1);
+    font-size: 1.7rem;
+    font-weight: 700;
+}
+
+.info-name span{
+    color: var(--font-color2);
+    font-weight: 500;
+}
+
+.destination div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.destination div h2{
+    font-size: 4.2rem;
+    color: var(--font-color1);
+}
+
+.time{
+    font-weight: 500;
+    color: var(--font-color1);
+    font-size: 1.75rem
+}
+
+.mid{
+    padding: 2.5rem 0;
+    margin: 3rem 0;
+    border-top: 0.2rem dashed rgba(130, 130, 130, 0.6);
+    border-bottom: 0.2rem dashed rgba(130, 130, 130, 0.6);
+}
+
+.bottom{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.info-block{
+    display: flex;
+    flex-direction: column;
+}
+
+.info-block span:first-child{
+    color: var(--font-color2);
+    font-weight: 500;;
+}
+
+.info-block .value{
+    color: var(--font-color1);
+    font-size: 1.7rem;
+    font-weight: 700;
+}
+
+.qr-code{
+    width: 95%;
+}
+
+.right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: .3rem
+}
+
+.right span{
+    color: var(--font-color2);
+    font-weight: 500;
+}
+
+.boarding-time{
+    color: white;
+    width: max-content;
+    padding: .3rem .8rem;
+    border-radius: .8rem;
+    background-color: #633BBC;
+    font-weight: 500;
+}
+
+.warning{
+    font-size: 1.65rem;
+    color: var(--font-color1);
+    text-align: center;
+    margin-top: 2rem;
+}
+.warning span{
+    font-weight: 500;
+    color: black;
+}
